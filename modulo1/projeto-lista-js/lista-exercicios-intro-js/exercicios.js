@@ -37,10 +37,9 @@ console.log(idade)
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-/*const peso = 71
-const altura = 1.7
+
 const imc = peso / ( altura * altura )
-return imc*/
+return imc
 }
 
 // EXERCÍCIO 04
@@ -66,32 +65,40 @@ console.log(coresFavoritas)
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-
+  
+let palavra = string.toUpperCase()
+return palavra
 
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
-
+let ingressos = (custo / valorIngresso)
+return ingressos
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-
+string1 = (string1.length)
+string2 = (string2.length)
+return string1 === string2
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
+const primeiro = array[0]
+return primeiro
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
-
+let ultimoElemento = array.length
+return array[ultimoElemento - 1]
 }
 
 // EXERCÍCIO 11
