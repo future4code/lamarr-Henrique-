@@ -123,7 +123,7 @@ string2 = string2.toLowerCase()
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
-  
+  /*
 let anoAtual = Number(prompt("Digite o ano atual: "))
 let anoNascimento = Number(prompt("Digite o seu ano de nascimento: "))
 let emissaoRg = Number(prompt("Digite o ano de emissão do seu RG: "))
@@ -132,7 +132,7 @@ const tempoEmissao = anoAtual - emissaoRg
 //const terceiraFaixa = (idade >= 20 || )
 const validacao = ((idade <= 20 && (tempoEmissao >= 5)) || (idade > 20 || idade <= 50) &&  (emissaoRg >= 10 ) || (idade > 51 && emissaoRg >= 15))
 return validacao
-
+*/
 }
 
 // EXERCÍCIO 14
