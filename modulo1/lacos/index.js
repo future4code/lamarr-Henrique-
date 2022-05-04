@@ -167,3 +167,26 @@ for(let string of array){
 console.log(imprimiString(arrayOriginal))
 */
 
+let valorMaximo = 0
+let valorMinimo = 0
+
+function valorMaxMin (array) {
+
+    for (let num of array){
+
+        if(valorMaximo <= num){
+            valorMaximo = num
+        }
+    }
+    for (let num2 of array){
+        if( ){
+            valorMinimo = num2
+        }
+    
+    }
+return console.log(`O maior número é ${valorMaximo} e o menor é ${valorMinimo}`)
+
+
+}
+
+valorMaxMin(arrayOriginal)
