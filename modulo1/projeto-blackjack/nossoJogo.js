@@ -11,4 +11,69 @@
  * 
  */
 
-    console.log()
+    console.log("Boas vindas ao jogo de Blackjack!")
+
+    if(confirm("Quer iniciar uma nova rodada?")) {
+      
+
+   } else {
+      
+      console.log("O jogo acabou.")
+   }
+
+   console.log("Cartas usuário")
+
+let i = 0
+
+let pontuacao = 0
+
+   while (i < 2){
+   const carta = comprarCarta(); 
+ 
+   
+   console.log(carta.texto) 
+ 
+   pontuacao = pontuacao + (carta.valor)
+
+    
+
+   i++
+   }
+   
+   console.log("Pontuação", pontuacao)
+  
+
+console.log("Cartas compurador")
+
+   i = 0
+
+let pontuacaoComputador = 0
+
+   while (i < 2){
+   const carta = comprarCarta(); 
+ 
+   
+   console.log(carta.texto) 
+ 
+   pontuacaoComputador = pontuacaoComputador + (carta.valor)
+
+    
+
+   i++
+   }
+   
+   console.log("Pontuação", pontuacaoComputador)
+
+   if (pontuacao === pontuacaoComputador){
+      console.log("Empate!")
+   }else {
+    if(pontuacao > pontuacaoComputador){
+       console.log("O usuário ganhou!")
+    }else {
+   if (pontuacao < pontuacaoComputador){
+       console.log("O computador ganhou!")
+   }
+
+    }
+
+   }
