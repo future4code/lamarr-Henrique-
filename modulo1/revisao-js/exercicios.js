@@ -139,13 +139,22 @@ function retornaPessoasAutorizadas(pessoas) {
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
   
-  //TENTEI DE DIVERSAS FORMAS MAS NÃO ENTENDI PORQUE NÃO FUNCIONOU.
+  //TENTEI DE DIVERSAS FORMAS MAS NÃO ENTENDI PORQUE NÃO FUNCIONOU. PODERIAM INFORMAR QUAL O ERRO?
 
-  function naoAutorizada(naoAutorizadas){
+  /*function naoAutorizada(naoAutorizadas){
     return naoAutorizadas.idade <= 14 && naoAutorizadas.idade >= 61 && naoAutorizadas.altura <= 1.4
   }
   let pessoasNaoAutorizadas = pessoas.filter(naoAutorizada)
-  return pessoasNaoAutorizadas
+  return pessoasNaoAutorizadas*/
+
+  /*
+  let pessoasNaoAutorizadas = []
+  for( let i of pessoas){
+    if(pessoas.idade <= 14 && pessoas.idade >= 61 && pessoas.altura < 1.5){
+      pessoasNaoAutorizadas.push(i)
+    }
+  }
+  return pessoasNaoAutorizadas*/
 }
 
 // EXERCÍCIO 14
@@ -155,7 +164,7 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+
 }
 
 // EXERCÍCIO 15B
