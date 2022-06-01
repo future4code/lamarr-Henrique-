@@ -1,0 +1,62 @@
+main, aside{
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+    height:  50px;
+    
+}
+
+.imgTitulo{
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+.titulo{
+    display: flex;
+   
+    align-items: center;
+    margin: 10px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2d0e0;
+    width: 20%;
+
+}
+
+.lateral{
+    display: flex;
+    align-items: center;
+    
+}
+main{
+     display: flex;
+     border: 5px darkgray;
+     padding: 5px;
+}
+section{
+    border: 5px darkgray;
+    padding: 50px;
+
+}
+
+.imgL{
+    display: flex;
+    width: 25px;
+    margin: 10px;
+}
