@@ -3,6 +3,7 @@ import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 import CardPequeno from './components/CardPequeno/CardPequeno';
+import perfil from './img/perfil.jpeg'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
+          imagem={perfil} 
           nome="Henrique" 
           descricao="Oi, eu sou o Henrique. Sou supervisor técnico de um provedor de internet, sou responsável pela equipe que atua na instalação e manutenção de toda a cidade."
         />
@@ -33,15 +34,15 @@ function App() {
       <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          imagem={perfil}
+          nome="Provedor de internet" 
+          descricao="supervisor técnico." 
         />
         
         <CardGrande 
-          imagem="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-768x768.png" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem={perfil}
+          nome="Provedor de internet" 
+          descricao="Técnico de fibra optica." 
         />
       </div>
 
