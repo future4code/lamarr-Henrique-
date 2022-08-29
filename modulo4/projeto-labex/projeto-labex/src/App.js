@@ -1,13 +1,11 @@
 
 import './App.css';
-import { NameProject } from './components/NameProject';
-import {HomePage} from './components/pages/HomePage'
+import Routes from './Routers/Rotas';
 
 function App() {
   return (
     <div>
-          <NameProject/>
-          <HomePage/>
+          <Routes/>
     </div>
   );
 }
